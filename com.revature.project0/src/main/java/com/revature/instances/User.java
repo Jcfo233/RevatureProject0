@@ -13,7 +13,7 @@ public class User {
 	public User() {
 		super();
 	}
-	public User(int id, String firstname, String lastname, UserType access, ArrayList<Integer> accounts, String username, String password) {
+	public User(int id, String firstname, String lastname, String username, String password, UserType access, ArrayList<Integer> accounts) {
 		super();
 		this.id = id;
 		this.firstname = firstname;
