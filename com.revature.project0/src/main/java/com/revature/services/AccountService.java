@@ -46,6 +46,9 @@ public class AccountService {
 		return repository.withdrawDeposit(id, amt);	
 	}
 	public boolean deposit(int id, int amt) {
+		if (amt <= 0) {
+			return false;
+		}
 		return repository.withdrawDeposit(id, amt);
 	}
 

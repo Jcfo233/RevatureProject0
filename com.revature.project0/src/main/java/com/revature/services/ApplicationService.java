@@ -23,9 +23,9 @@ public class ApplicationService{
 	}
 
 
-	public boolean applyFor(int userid, Account accID) {
-	   if(new AccountService().findByID(accID.getId()) != null) {
-		   return repository.applyFor(userid, accID.getId());
+	public boolean applyFor(int userid, int accID) {
+	   if(new AccountService().findByID(accID) != null) {
+		   return repository.applyFor(userid, accID);
 	   }else {
 		   System.out.println("Account does not exist!");
 		   return false;

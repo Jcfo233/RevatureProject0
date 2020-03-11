@@ -32,7 +32,7 @@ public class Menu {
 			String password = s.nextLine();
 			u = userserv.findByUserPass(username, password);
 			if(u == null) {
-				log.info("Could not find that account \n"
+				System.out.println("Could not find that account \n"
 						+ "1: Try again? \n"
 						+ "2: Back to login");
 				int option = BusinessLogic.getOption(2);
@@ -48,20 +48,20 @@ public class Menu {
 		UserService userserv = new UserService();
 		String password;
 		boolean badpass = false;
-		log.info("Enter First Name: ");
+		System.out.print("Enter First Name: ");
 		user.setFirstname(s.nextLine());
 		System.out.print("Enter Last Name: ");
 		user.setLastname(s.nextLine());
-		log.info("Enter Username for new Account: ");
+		System.out.print("Enter Username for new Account: ");
 		user.setUsername(s.nextLine());
 		
 		do {
 		if (badpass) {
-			log.info("Passwords didn't match!");
+			System.out.print("Passwords didn't match!");
 		}
-		log.info("Enter Password for new Account: ");
+		System.out.print("Enter Password for new Account: ");
 		password = s.nextLine();
-		log.info("Confirm Password: ");
+		System.out.print("Confirm Password: ");
 		badpass = true;
 		}while(!password.equals(s.nextLine()));
 		user.setPassword(password);
@@ -319,7 +319,7 @@ public class Menu {
 			if(1 == BusinessLogic.getOption(2)) {
 				System.out.println("What is the account number of this account?");
 				Account accID = accserv.findByID(BusinessLogic.getInteger());
-				if(appserv.applyFor(user.getId(), accID)) {
+				if(appserv.applyFor(user.getId(), accID.getId())) {
 					LoggerUtil.getLogger().info("Account Successfully Applied For!");
 				}else {
 					LoggerUtil.getLogger().info("Failed To Apply For Account!");

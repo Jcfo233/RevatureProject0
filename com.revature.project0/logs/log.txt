@@ -731,3 +731,45 @@ Enter the number of the menu option
 1: Login 
 2: Register 
 3: Exit
+2020-03-10 21:14:28 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:17:43 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:19:57 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:21:11 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:23:07 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:24:22 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:25:37 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:26:41 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:26:52 INFO  LoggerUtil:21 - Welcome to my Banking Tool 
+Enter the number of the menu option 
+1: Login 
+2: Register 
+3: Exit
+2020-03-10 21:27:32 INFO  LoggerUtil:21 - Welcome to my Banking Tool 
+Enter the number of the menu option 
+1: Login 
+2: Register 
+3: Exit
+2020-03-10 21:32:27 INFO  LoggerUtil:21 - Welcome to my Banking Tool 
+Enter the number of the menu option 
+1: Login 
+2: Register 
+3: Exit
+2020-03-10 21:32:44 INFO  LoggerUtil:21 - Welcome to my Banking Tool 
+Enter the number of the menu option 
+1: Login 
+2: Register 
+3: Exit
+2020-03-10 21:33:13 INFO  LoggerUtil:21 - Welcome to my Banking Tool 
+Enter the number of the menu option 
+1: Login 
+2: Register 
+3: Exit
+2020-03-10 21:39:44 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-10 21:39:55 INFO  LoggerUtil:21 - Welcome to my Banking Tool 
+Enter the number of the menu option 
+1: Login 
+2: Register 
+3: Exit
+2020-03-10 21:40:25 INFO  LoggerUtil:371 - Application has been denied!
+2020-03-10 21:40:35 INFO  LoggerUtil:371 - Application has been denied!
+2020-03-10 21:40:42 INFO  LoggerUtil:371 - Application has been denied!
