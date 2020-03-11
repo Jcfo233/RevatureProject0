@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="Project0">
+	<entities>
+		<data-source id="oracle_thin-1709bf4f713-5c3b22da25cb0de1">
+			<entity id="1" name="ACCOUNTS" fq-name="ADMIN.ACCOUNTS">
+				<path name="ADMIN"/>
+			</entity>
+			<entity id="2" name="APPLICATION" fq-name="ADMIN.APPLICATION">
+				<path name="ADMIN"/>
+			</entity>
+			<entity id="3" name="USERS" fq-name="ADMIN.USERS">
+				<path name="ADMIN"/>
+			</entity>
+			<entity id="4" name="USER_ACC_JT" fq-name="ADMIN.USER_ACC_JT">
+				<path name="ADMIN"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="SYS_C005427" fq-name="ADMIN.USER_ACC_JT.SYS_C005427" type="fk" pk-ref="1" fk-ref="4"/>
+		<relation name="SYS_C005429" fq-name="ADMIN.APPLICATION.SYS_C005429" type="fk" pk-ref="3" fk-ref="2"/>
+		<relation name="SYS_C005428" fq-name="ADMIN.USER_ACC_JT.SYS_C005428" type="fk" pk-ref="3" fk-ref="4"/>
+	</relations>
+</diagram>

@@ -474,8 +474,8 @@ public class Menu {
 		while(true) {
 			System.out.println("How would you like to find a user?\n"
 					+ "1: Find by user id\n"
-					+ "2: Find by username"
-					+ "3: Find by lastname"
+					+ "2: Find by username\n"
+					+ "3: Find by lastname\n"
 					+ "4: Find all\n"
 					+ "5: Back");
 			int option = BusinessLogic.getOption(5);
