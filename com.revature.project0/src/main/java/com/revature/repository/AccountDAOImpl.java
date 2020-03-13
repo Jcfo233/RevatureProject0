@@ -22,7 +22,6 @@ public class AccountDAOImpl implements AccountDAO {
 		
 		try (Connection conn = ConnectionUtil.getConnection()) {
 			String sql = "SELECT * FROM accounts";
-			
 			Statement stmt = conn.createStatement();
 			
 			ResultSet rs = stmt.executeQuery(sql);

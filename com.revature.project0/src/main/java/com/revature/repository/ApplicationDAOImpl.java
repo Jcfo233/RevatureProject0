@@ -88,10 +88,12 @@ try (Connection conn = ConnectionUtil.getConnection()) {
 			String sql = "{ call approve_old_account(?, ?) }";
 			
 			CallableStatement stmt = conn.prepareCall(sql);
-		
-			stmt.setInt(1, application.getUser().getId());
-			stmt.setInt(2, application.getAccid());
+			
+			stmt.setInt(1, application.getAccid());
+			stmt.setInt(2, application.getUser().getId());
+			
 			stmt.execute();
+			stmt.close();
 			return true;
 			}
 			else {

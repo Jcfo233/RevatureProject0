@@ -17,8 +17,8 @@ public class Driver {
 		boolean inMenu = true;
 		while (inMenu) {
 				User user = new User();
-				
-				log.info( "Welcome to my Banking Tool \n"
+				log.info("Launching banking tool");
+				System.out.println( "Welcome to my Banking Tool \n"
 					+ "Enter the number of the menu option \n"
 					+ "1: Login \n"
 					+ "2: Register \n"

@@ -198,7 +198,7 @@ public class Menu {
 							+ "\n3: Transfer funds to another account"
 							+ "\n4: View Account Details");
 			System.out.println("5: Back");
-			option = BusinessLogic.getOption(4);
+			option = BusinessLogic.getOption(5);
 		
 			switch(option) {
 		

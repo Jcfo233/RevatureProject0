@@ -773,3 +773,64 @@ Enter the number of the menu option
 2020-03-10 21:40:25 INFO  LoggerUtil:371 - Application has been denied!
 2020-03-10 21:40:35 INFO  LoggerUtil:371 - Application has been denied!
 2020-03-10 21:40:42 INFO  LoggerUtil:371 - Application has been denied!
+2020-03-11 10:43:00 INFO  LoggerUtil:21 - Welcome to my Banking Tool 
+Enter the number of the menu option 
+1: Login 
+2: Register 
+3: Exit
+2020-03-11 10:43:30 INFO  LoggerUtil:37 - SQL Exception in UserDaoImpl: insert
+2020-03-11 10:43:30 INFO  LoggerUtil:84 - User info registration failed!
+2020-03-11 10:43:30 INFO  LoggerUtil:21 - Welcome to my Banking Tool 
+Enter the number of the menu option 
+1: Login 
+2: Register 
+3: Exit
+2020-03-11 10:45:26 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 10:46:05 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-11 10:49:16 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 10:50:24 INFO  LoggerUtil:73 - User successfully registered
+2020-03-11 10:50:58 INFO  LoggerUtil:409 - Password Successfully Updated!
+2020-03-11 10:51:27 INFO  LoggerUtil:331 - Account Successfully Applied For!
+2020-03-11 10:51:35 INFO  LoggerUtil:323 - Account Successfully Applied For!
+2020-03-11 10:51:41 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 10:53:54 INFO  LoggerUtil:364 - Application Approved!
+2020-03-11 10:53:59 INFO  LoggerUtil:371 - Application has been denied!
+2020-03-11 10:54:06 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-11 10:54:06 INFO  LoggerUtil:366 - Failed To Approve Application
+2020-03-11 10:54:49 INFO  LoggerUtil:108 - SQL Exception in ApplicationDaoImpl
+2020-03-11 10:54:49 INFO  LoggerUtil:366 - Failed To Approve Application
+2020-03-11 10:54:53 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 10:59:05 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 10:59:25 INFO  LoggerUtil:109 - SQL Exception in ApplicationDaoImpl
+2020-03-11 10:59:25 INFO  LoggerUtil:366 - Failed To Approve Application
+2020-03-11 10:59:36 INFO  LoggerUtil:371 - Application has been denied!
+2020-03-11 11:01:15 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:03:23 INFO  Menu:19 - There are only 4 menu options 
+ Please enter the number of the menu option:
+2020-03-11 11:08:26 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:08:41 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:09:05 INFO  LoggerUtil:73 - User successfully registered
+2020-03-11 11:09:17 INFO  LoggerUtil:323 - Account Successfully Applied For!
+2020-03-11 11:09:22 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:09:35 INFO  LoggerUtil:109 - SQL Exception in ApplicationDaoImpl
+2020-03-11 11:09:35 INFO  LoggerUtil:366 - Failed To Approve Application
+2020-03-11 11:11:33 INFO  LoggerUtil:109 - SQL Exception in ApplicationDaoImpl
+2020-03-11 11:11:33 INFO  LoggerUtil:366 - Failed To Approve Application
+2020-03-11 11:11:37 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:12:42 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:12:59 INFO  LoggerUtil:364 - Application Approved!
+2020-03-11 11:13:37 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:41:37 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:41:59 INFO  LoggerUtil:37 - SQL Exception in UserDaoImpl: insert
+2020-03-11 11:41:59 INFO  LoggerUtil:84 - User info registration failed!
+2020-03-11 11:41:59 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:42:34 INFO  LoggerUtil:73 - User successfully registered
+2020-03-11 11:43:07 INFO  LoggerUtil:323 - Account Successfully Applied For!
+2020-03-11 11:43:27 INFO  LoggerUtil:20 - Launching banking tool
+2020-03-11 11:44:35 INFO  LoggerUtil:236 - $100 successfully transferred from Account [id= 1, users= [1, 2], balance= $10480.0] to Account [id= 2, users= [2], balance= $110.0]
+2020-03-11 11:45:03 INFO  LoggerUtil:364 - Application Approved!
+2020-03-11 11:45:08 INFO  Menu:24 - Please enter the number of the menu option, e
+2020-03-11 11:45:39 INFO  LoggerUtil:250 - Successfully cancelled Account [id= 2, users= [2], balance= $210.0]
+2020-03-11 11:46:18 INFO  LoggerUtil:465 - User Successfully craeted!
+2020-03-11 11:47:02 INFO  LoggerUtil:525 - User [id=26, firstname=Kayla, lastname=Filio, access=ADMIN, accounts=[], username=kayla.filio, password=kaylapass]Successfully removed!
+2020-03-11 11:47:08 INFO  LoggerUtil:20 - Launching banking tool
